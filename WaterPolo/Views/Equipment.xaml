@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:WaterPolo.ViewModels"
+             x:Class="WaterPolo.Views.Equipment"
+             Title="Equipment of Water Polo Game"
+             >
+
+    <ContentPage.BindingContext>
+        <local:ModelEquipment/>
+    </ContentPage.BindingContext>
+
+    <ListView
+        x:Name="LVPlayer"
+        ItemsSource="{Binding items}"
+        HasUnevenRows="True"
+        SelectionMode="None"
+        ItemTapped="LVPlayer_ItemTapped"
+        >
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+
+                    <StackLayout Padding="5">
+
+                        <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+                        <StackLayout Orientation="Horizontal">
+
+                            <Image
+                                Source="{Binding Pic}"
+                                HeightRequest="210"
+                                WidthRequest="120"
+                                />
+                            <BoxView WidthRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+                            <StackLayout>
+                                <Label
+                                    Text="{Binding Title}"
+                                    FontSize="24"
+                                    Margin="10, 0, 10, 0"
+                                    />
+
+                                <Label
+                                    Text="{Binding Des}"
+                                    HorizontalTextAlignment="Start"
+                                    HorizontalOptions="FillAndExpand"
+                                    Margin="10, 0, 10, 0"
+                                    FontSize="16"
+                                    />
+                            </StackLayout>
+                        </StackLayout>
+
+                        <BoxView  HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                    </StackLayout>
+
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

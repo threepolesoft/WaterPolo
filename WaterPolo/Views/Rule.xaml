@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:WaterPolo.ViewModels"
+             x:Class="WaterPolo.Views.Rule"
+             Title="Rule of Water Polo"
+             >
+
+
+    <StackLayout>
+        <Label
+            Text="BASIC RULES"
+            TextColor="Green"
+            FontSize="22"
+            Margin="0, 10, 0, 10"
+            HorizontalTextAlignment="Center"
+            />
+
+        <ScrollView Orientation="Vertical" VerticalOptions="Start" Padding="5">
+
+            <StackLayout Orientation="Vertical">
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻️"
+                        TextColor="Black"
+                        FontSize="20"
+                        Margin="20, 0, 0, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="50"
+                        />
+
+                    <Label
+                        Text="6 ''Field'' Players and 1 Goalie start the game.  Teams consist of up to 15 players."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻️"
+                        TextColor="Black"
+                        FontSize="20"
+                        Margin="20, 0, 0, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="50"
+                        />
+
+                    <Label
+                        Text="Field players must pass, catch, and shoot with only 1 hand.  Goalies may use 2 hands."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻️"
+                        TextColor="Black"
+                        FontSize="20"
+                        Margin="20, 0, 00, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="50"
+                        />
+
+                    <Label
+                        Text="Taking the ball under water when guarded is a turnover."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻️"
+                        TextColor="Black"
+                        FontSize="20"
+                        Margin="20, 0, 00, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="50"
+                        />
+                    
+                    <Label
+                        Text="The official playing field is at least 25 yards long, 20 yards wide, and 7 feet deep."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻️"
+                        TextColor="Black"
+                        FontSize="20"
+                        Margin="20, 0, 0, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="50"
+                        />
+
+                    <Label
+                        Text="Players may not touch the bottom or hang on the wall."
+                        TextColor="Black"
+                        HorizontalOptions="Start"
+                        HorizontalTextAlignment="Start"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻️"
+                        TextColor="Black"
+                        FontSize="20"
+                        Margin="20, 0, 0, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="50"
+                        />
+
+                    <Label
+                        Text="Games consist of 4 quarters and typically last 45 minutes to 1 hour."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻️"
+                        TextColor="Black"
+                        FontSize="20"
+                        Margin="20, 0, 0, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="50"
+                        />
+
+                    <Label
+                        Text="There is a 30 second shot clock per possession."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻️"
+                        TextColor="Black"
+                        FontSize="20"
+                        Margin="20, 0, 0, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="50"
+                        />
+
+                    <Label
+                        Text="Minor fouls occur frequently and result in a free pass.  There is no limit to minor fouls."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻️"
+                        TextColor="Black"
+                        FontSize="20"
+                        Margin="20, 0, 0, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="50"
+                        />
+
+                    <Label
+                        Text="After 3 major fouls (ejections), a player may not return to the game."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+
+    </StackLayout>
+    
+
+</ContentPage>
